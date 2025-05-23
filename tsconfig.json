@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "jsx": "preserve",
+        "baseUrl": "./",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "strictBindCallApply": false,
+        "forceConsistentCasingInFileNames": false,
+        "noFallthroughCasesInSwitch": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveConstEnums": true,
+        "isolatedModules": true,
+        "incremental": true,
+        "sourceMap": true,
+        "noEmit": true // Next.js에서는 true, Nest에서는 override함
+    },
+    "include": [
+        "src/**/*",
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "next.config.js",
+        ".eslintrc.js",
+        "pm2_*.config.js",
+        "src/common/kakao/kakao-navi.js"
+    ],
+    "exclude": ["node_modules", "test", "dist", "**/*spec.ts", ".next"]
+}

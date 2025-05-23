@@ -1,0 +1,54 @@
+# compiled output
+/dist
+/node_modules
+node_modules
+dist
+.next
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+/files
+/image
+
+# 배포서버에 mysql, redis 접근방법 생길 때까지 보류
+test/*.e2e-spec.ts
+
+# IDEs and editors
+/.idea
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.next/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+workspace.code-workspace
+
+# CONFIG
+src/config/next/config.js
+src/config/next/local.js
+src/config/local1.ts
+src/config/local.ts
+.vscode/launch.json
